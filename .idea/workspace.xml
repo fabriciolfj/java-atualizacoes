@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comandos/comandos usados na aula" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/novidades-java-minors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/TesteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/dao/CriaturaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/dao/GalaxiaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/dao/PlanetaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/http2/TesteHttp11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/http2/TesteRequestHttp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/modelagem/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/modelagem/http/dao/LivroDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/modelagem/modelo/dominio/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/modelagem/modelo/dominio/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/modelagem/modelo/dominio/NotaFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/modelagem/nf/servico/NotaFiscalServico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/modelagem/nf/subscriber/NotaFiscalSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/modelagem/nf/util/NotaFiscalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/reactive/TesteEnvioBloqueante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/reactive/TesteEnvioNaoBloqueante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/reactive/model/NotaFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/reactive/subscriber/NotaFiscalSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/reactive/wsclient/NotaFiscalWSClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1vsD0QhlRE9y9w2H0mARx9zKO5i" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210726_0000" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reactor" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.TesteEnvioNaoBloqueante">
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.switchexpression.Teste" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.switchexpression.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.TesteDAO" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteEnvioNaoBloqueante" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.reactive.TesteEnvioNaoBloqueante" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.reactive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteHttp11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.http2.TesteHttp11" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.http2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteRequestHttp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.http2.TesteRequestHttp2" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.http2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TesteEnvioNaoBloqueante" />
+        <item itemvalue="Application.TesteDAO" />
+        <item itemvalue="Application.TesteRequestHttp2" />
+        <item itemvalue="Application.TesteHttp11" />
+        <item itemvalue="Application.Teste" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="" />
+      <created>1627341680542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627341680542</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
