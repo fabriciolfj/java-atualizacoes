@@ -4,9 +4,9 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.util.Scanner;
 
-import br.com.alura.dao.CriaturaDAO;
-import br.com.alura.dao.GalaxiaDAO;
-import br.com.alura.dao.PlanetaDAO;
+import br.com.alura.v1.dao.CriaturaDAO;
+import br.com.alura.v1.dao.GalaxiaDAO;
+import br.com.alura.v1.dao.PlanetaDAO;
 
 public class TesteDAO {
 
