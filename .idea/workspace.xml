@@ -1,43 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/instanceofexample/Simulacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/proxydinamico/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/proxydinamico/Simulacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/record/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/record/Simulacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/sealed/JungleAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/sealed/Monkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/sealed/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/streamtolist/Simulacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/vectorincubacao/Simulacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/Teste1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v2/Teste2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/otimizacao/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/otimizacao/Simulacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comandos/comandos usados na aula" beforeDir="false" afterPath="$PROJECT_DIR$/comandos/comandos usados na aula" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/novidades-java-minors.iml" beforeDir="false" afterPath="$PROJECT_DIR$/novidades-java-minors.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/TesteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/TesteDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/dao/CriaturaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/dao/CriaturaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/dao/GalaxiaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/dao/GalaxiaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/dao/PlanetaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/dao/PlanetaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/factorymethod/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/factorymethod/Teste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/http2/TesteHttp11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/http2/TesteHttp11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/http2/TesteRequestHttp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/http2/TesteRequestHttp2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/inferenciavariavel/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/inferenciavariavel/Teste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/modelagem/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/modelagem/http/dao/LivroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/http/dao/LivroDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/modelagem/modelo/dominio/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/modelo/dominio/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/modelagem/modelo/dominio/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/modelo/dominio/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/modelagem/modelo/dominio/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/modelo/dominio/NotaFiscal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/modelagem/nf/servico/NotaFiscalServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/nf/servico/NotaFiscalServico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/modelagem/nf/subscriber/NotaFiscalSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/nf/subscriber/NotaFiscalSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/modelagem/nf/util/NotaFiscalUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/nf/util/NotaFiscalUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/reactive/TesteEnvioBloqueante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/TesteEnvioBloqueante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/reactive/TesteEnvioNaoBloqueante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/TesteEnvioNaoBloqueante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/reactive/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/model/NotaFiscal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/reactive/subscriber/NotaFiscalSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/subscriber/NotaFiscalSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/reactive/wsclient/NotaFiscalWSClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/wsclient/NotaFiscalWSClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/switchexpression/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/switchexpression/Teste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/textblock/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/textblock/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/dao/CriaturaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/dao/CriaturaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/dao/GalaxiaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/dao/GalaxiaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/dao/PlanetaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/dao/PlanetaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/factorymethod/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/factorymethod/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/http2/TesteHttp11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/http2/TesteHttp11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/http2/TesteRequestHttp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/http2/TesteRequestHttp2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/inferenciavariavel/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/inferenciavariavel/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/http/dao/LivroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/http/dao/LivroDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/modelo/dominio/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/modelo/dominio/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/modelo/dominio/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/modelo/dominio/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/modelo/dominio/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/modelo/dominio/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/nf/servico/NotaFiscalServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/nf/servico/NotaFiscalServico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/nf/subscriber/NotaFiscalSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/nf/subscriber/NotaFiscalSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/nf/util/NotaFiscalUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/modelagem/nf/util/NotaFiscalUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/TesteEnvioBloqueante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/TesteEnvioBloqueante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/TesteEnvioNaoBloqueante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/TesteEnvioNaoBloqueante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/model/NotaFiscal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/model/NotaFiscal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/subscriber/NotaFiscalSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/subscriber/NotaFiscalSubscriber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/wsclient/NotaFiscalWSClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/reactive/wsclient/NotaFiscalWSClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/switchexpression/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/switchexpression/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v1/textblock/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v1/textblock/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/SwitchNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/SwitchNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/instanceofexample/Simulacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/instanceofexample/Simulacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/proxydinamico/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/proxydinamico/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/proxydinamico/Simulacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/proxydinamico/Simulacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/record/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/record/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/record/Simulacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/record/Simulacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/sealed/JungleAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/sealed/JungleAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/sealed/Monkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/sealed/Monkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/sealed/Simulacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/sealed/Simulacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/sealed/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/sealed/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/streamtolist/Simulacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/streamtolist/Simulacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v2/vectorincubacao/Simulacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v2/vectorincubacao/Simulacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +81,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1vsD0QhlRE9y9w2H0mARx9zKO5i" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -79,55 +100,16 @@
     <property name="com.google.cloudcode.ide_session_index" value="20210726_0000" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Simulacao (5)">
-    <configuration name="Simulacao (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v2.streamtolist.Simulacao" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.v2.streamtolist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Simulacao">
     <configuration name="Simulacao (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.v2.vectorincubacao.Simulacao" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.v2.vectorincubacao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Simulacao (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v2.record.Simulacao" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.v2.record.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Simulacao (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v2.instanceofexample.Simulacao" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.v2.instanceofexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,13 +130,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Simulacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.otimizacao.Simulacao" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.v3.otimizacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Teste1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v2.Teste1" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.v2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.TesteDAO" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Simulacao (5)" />
-        <item itemvalue="Application.Simulacao (4)" />
-        <item itemvalue="Application.Simulacao (3)" />
+        <item itemvalue="Application.Simulacao" />
+        <item itemvalue="Application.TesteDAO" />
         <item itemvalue="Application.Simulacao (2)" />
-        <item itemvalue="Application.Simulacao (1)" />
+        <item itemvalue="Application.Simulacao (5)" />
+        <item itemvalue="Application.Teste1" />
       </list>
     </recent_temporary>
   </component>
@@ -179,9 +200,19 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/alura/v2/Teste1.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
