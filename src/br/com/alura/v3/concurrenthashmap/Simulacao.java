@@ -7,6 +7,7 @@ import static java.util.Arrays.asList;
 
 public class Simulacao {
 
+    //thread safe map
     public static void main(String[] args) {
         Set<Integer> threadSafeUniqueNumbers = ConcurrentHashMap.newKeySet();
         threadSafeUniqueNumbers.add(20);
