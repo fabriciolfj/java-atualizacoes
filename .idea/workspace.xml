@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/equalshashcode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/equalshashcode/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/equalshashcode/SubPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/verificacaoindex/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/verificacaoindex/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/verificacaonull/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/verificacaonull/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/verificacaonull/Exemplo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v3/otimizacao/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v3/otimizacao/Event.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/v3/otimizacao/Simulacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v3/otimizacao/Simulacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,19 +50,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TF_FMT" value="false" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210726_0000" />
+    <property name="com.google.cloudcode.ide_session_index" value="20220322_0000" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Exemplo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.verificacaonull.Exemplo1" />
+  <component name="RunManager" selected="Application.Simulacao">
+    <configuration name="CollectorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.collectors.CollectorsExample" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.verificacaonull.*" />
+          <option name="PATTERN" value="br.com.alura.v3.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,6 +96,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Simulacao (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.concurrenthashmap.Simulacao" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.v3.concurrenthashmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Simulacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.otimizacao.Simulacao" />
       <module name="novidades-java-minors" />
@@ -117,26 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.TesteDAO" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Simulacao" />
+        <item itemvalue="Application.Simulacao (1)" />
+        <item itemvalue="Application.CollectorsExample" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Exemplo1" />
-        <item itemvalue="Application.Simulacao" />
-        <item itemvalue="Application.TesteDAO" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642959416637</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add">
+      <created>1645227674789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645227674790</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add">
+      <created>1645228315351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645228315351</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +175,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -182,6 +189,21 @@
           <url>file://$PROJECT_DIR$/src/br/com/alura/v2/Teste1.java</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/alura/v3/collectors/CollectorsExample.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/alura/v3/collectors/CollectorsExample.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/alura/v3/collectors/CollectorsExample.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
