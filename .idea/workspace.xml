@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/entities/Apollo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/entities/Cantaloupe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/entities/Gac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/entities/Melon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/Compute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/ComputeIfAbsent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/ComputeIfPresent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/MapGetOrDefault.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/PutIfAbsent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/Replacing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/Frequency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/PartitionBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/UnaryOperatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/comparingmaps/Comparing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/removingelements/Simulacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TF_FMT": "false",
     "last_opened_file_path": "/home/spark/Documentos/repositorios/java-atualizacoes"
   }
 }]]></component>
@@ -67,65 +60,13 @@
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Replacing">
-    <configuration name="Compute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.Compute" />
+  <component name="RunManager" selected="Application.UnaryOperatorTest">
+    <configuration name="Comparing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.comparingmaps.Comparing" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComputeIfPresent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.ComputeIfPresent" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.Merge" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PutIfAbsent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.PutIfAbsent" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Replacing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.Replacing" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.*" />
+          <option name="PATTERN" value="br.com.alura.v3.comparingmaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +75,50 @@
       </method>
     </configuration>
     <configuration name="Simulacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.sorted.Simulacao" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.removingelements.Simulacao" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.sorted.*" />
+          <option name="PATTERN" value="br.com.alura.v3.removingelements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnaryOperatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.UnaryOperatorTest" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.v3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.alura.v3.Frequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.Frequency" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.v3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.alura.v3.PartitionBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.PartitionBy" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Replacing" />
-        <item itemvalue="Application.PutIfAbsent" />
-        <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.Compute" />
-        <item itemvalue="Application.br.com.alura.v3.ComputeIfPresent" />
+        <item itemvalue="Application.UnaryOperatorTest" />
+        <item itemvalue="Application.br.com.alura.v3.Frequency" />
+        <item itemvalue="Application.br.com.alura.v3.PartitionBy" />
+        <item itemvalue="Application.Simulacao" />
+        <item itemvalue="Application.Comparing" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647967939850</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add">
+      <created>1652918357594</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652918357594</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
