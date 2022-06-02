@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/Frequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/PartitionBy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/UnaryOperatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/comparingmaps/Comparing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/removingelements/Simulacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning/packt/teste.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/bfs/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/leituraarquivo/Exemplo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/paths/PathRelative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/queue_dequeue/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v3/PutIfAbsent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v3/PutIfAbsent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TF_FMT": "false",
-    "last_opened_file_path": "/home/spark/Documentos/repositorios/java-atualizacoes"
+    "com.google.cloudcode.ide_session_index": "20220531_0000",
+    "last_opened_file_path": "/Users/fabriciojacob/Documents/repositorios/java-atualizacoes"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,13 +62,13 @@
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UnaryOperatorTest">
-    <configuration name="Comparing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.comparingmaps.Comparing" />
+  <component name="RunManager" selected="Application.Exemplo1">
+    <configuration name="Exemplo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.leituraarquivo.Exemplo1" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.comparingmaps.*" />
+          <option name="PATTERN" value="br.com.alura.v3.leituraarquivo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Simulacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.removingelements.Simulacao" />
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.bfs.Graph" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.removingelements.*" />
+          <option name="PATTERN" value="br.com.alura.v3.bfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,8 +89,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnaryOperatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.UnaryOperatorTest" />
+    <configuration name="PathRelative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.paths.PathRelative" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.v3.paths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutIfAbsent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.PutIfAbsent" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
@@ -100,25 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.alura.v3.Frequency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.Frequency" />
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.queue_dequeue.Stack" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="br.com.alura.v3.PartitionBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.PartitionBy" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.*" />
+          <option name="PATTERN" value="br.com.alura.v3.queue_dequeue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UnaryOperatorTest" />
-        <item itemvalue="Application.br.com.alura.v3.Frequency" />
-        <item itemvalue="Application.br.com.alura.v3.PartitionBy" />
-        <item itemvalue="Application.Simulacao" />
-        <item itemvalue="Application.Comparing" />
+        <item itemvalue="Application.Exemplo1" />
+        <item itemvalue="Application.PathRelative" />
+        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.Stack" />
+        <item itemvalue="Application.PutIfAbsent" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +223,11 @@
           <url>file://$PROJECT_DIR$/src/br/com/alura/v3/collectors/CollectorsExample.java</url>
           <line>29</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/alura/v3/bfs/Graph.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
