@@ -28,6 +28,8 @@ public class Melon {
         return Objects.equals(name, melon.name) && Objects.equals(grama, melon.grama);
     }
 
+    private void teste() {}
+
     @Override
     public int hashCode() {
         return Objects.hash(name, grama);
