@@ -5,22 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/CarregandoClassesDoPacote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/DetalhesConstrutores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/InstanciandoViaReflexaoConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/InstanciarClasseConstrutorPrivado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/PegarDadosDaClasse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/VerificandoQuemEClasseExternaInterna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/AgrupandoValoresImparPar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/BifunctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/DoubleStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/OrdenacaoStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/StreamFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/entities/Melon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/entities/Melon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,8 +59,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TF_FMT": "false",
-    "com.google.cloudcode.ide_session_index": "20220608_0000",
-    "last_opened_file_path": "/Users/fabriciojacob/Documents/repositorios/java-atualizacoes"
+    "com.google.cloudcode.ide_session_index": "20220614_0001",
+    "last_opened_file_path": "/Users/fabriciojacob/Documents/repositorios/java-atualizacoes",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,13 +69,13 @@
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VerificandoQuemEClasseExternaInterna">
-    <configuration name="DetalhesConstrutores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.reflections.DetalhesConstrutores" />
+  <component name="RunManager" selected="Application.StringTest">
+    <configuration name="AgrupandoValoresImparPar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.AgrupandoValoresImparPar" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.reflections.*" />
+          <option name="PATTERN" value="br.com.alura.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanciandoViaReflexaoConstructor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.reflections.InstanciandoViaReflexaoConstructor" />
+    <configuration name="BifunctionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.BifunctionTest" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.reflections.*" />
+          <option name="PATTERN" value="br.com.alura.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanciarClasseConstrutorPrivado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.reflections.InstanciarClasseConstrutorPrivado" />
+    <configuration name="CollectorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.collectors.CollectorsExample" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.reflections.*" />
+          <option name="PATTERN" value="br.com.alura.v3.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PegarDadosDaClasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.reflections.PegarDadosDaClasse" />
+    <configuration name="OrdenacaoStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.OrdenacaoStream" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.reflections.*" />
+          <option name="PATTERN" value="br.com.alura.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerificandoQuemEClasseExternaInterna" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.reflections.VerificandoQuemEClasseExternaInterna" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.StringTest" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.reflections.*" />
+          <option name="PATTERN" value="br.com.alura.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VerificandoQuemEClasseExternaInterna" />
-        <item itemvalue="Application.DetalhesConstrutores" />
-        <item itemvalue="Application.InstanciarClasseConstrutorPrivado" />
-        <item itemvalue="Application.InstanciandoViaReflexaoConstructor" />
-        <item itemvalue="Application.PegarDadosDaClasse" />
+        <item itemvalue="Application.StringTest" />
+        <item itemvalue="Application.BifunctionTest" />
+        <item itemvalue="Application.OrdenacaoStream" />
+        <item itemvalue="Application.AgrupandoValoresImparPar" />
+        <item itemvalue="Application.CollectorsExample" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654136318719</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add">
+      <created>1654736218309</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654736218309</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
