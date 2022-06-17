@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/GenericsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/InvocandoMethodViaReflexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/InvocandoMethodsStatics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/PegandoCampos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/reflections/PegandoGetterESetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/DebugLambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/FiltrandoElementsOfStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/InfinitStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/LambdaParametro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/Replacer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/RetornoInterfaceFunctional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/TestandoMethodUseLambdas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/entities/Melon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/entities/Melon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -68,13 +68,13 @@
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericsTest">
-    <configuration name="GenericsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.reflections.GenericsTest" />
+  <component name="RunManager" selected="Application.InfinitStream">
+    <configuration name="DebugLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.programacaofuncional.DebugLambda" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.reflections.*" />
+          <option name="PATTERN" value="br.com.alura.v3.programacaofuncional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvocandoMethodViaReflexao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.reflections.InvocandoMethodViaReflexao" />
+    <configuration name="FiltrandoElementsOfStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.programacaofuncional.FiltrandoElementsOfStream" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.reflections.*" />
+          <option name="PATTERN" value="br.com.alura.v3.programacaofuncional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvocandoMethodsStatics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.reflections.InvocandoMethodsStatics" />
+    <configuration name="InfinitStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.programacaofuncional.InfinitStream" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.reflections.*" />
+          <option name="PATTERN" value="br.com.alura.v3.programacaofuncional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PegandoCampos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.reflections.PegandoCampos" />
+    <configuration name="RetornoInterfaceFunctional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.programacaofuncional.RetornoInterfaceFunctional" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.reflections.*" />
+          <option name="PATTERN" value="br.com.alura.v3.programacaofuncional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PegandoGetterESetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.reflections.PegandoGetterESetters" />
+    <configuration name="TestandoMethodUseLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.programacaofuncional.TestandoMethodUseLambdas" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.reflections.*" />
+          <option name="PATTERN" value="br.com.alura.v3.programacaofuncional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericsTest" />
-        <item itemvalue="Application.InvocandoMethodsStatics" />
-        <item itemvalue="Application.InvocandoMethodViaReflexao" />
-        <item itemvalue="Application.PegandoCampos" />
-        <item itemvalue="Application.PegandoGetterESetters" />
+        <item itemvalue="Application.InfinitStream" />
+        <item itemvalue="Application.FiltrandoElementsOfStream" />
+        <item itemvalue="Application.DebugLambda" />
+        <item itemvalue="Application.TestandoMethodUseLambdas" />
+        <item itemvalue="Application.RetornoInterfaceFunctional" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655223323471</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add">
+      <created>1655346606648</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1655346606648</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
