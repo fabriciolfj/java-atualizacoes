@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/DebugLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/FiltrandoElementsOfStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/InfinitStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/LambdaParametro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/Replacer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/RetornoInterfaceFunctional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/TestandoMethodUseLambdas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/RetornoInterfaceFunctional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/v3/programacaofuncional/RetornoInterfaceFunctional.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,28 +47,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TF_FMT": "false",
-    "com.google.cloudcode.ide_session_index": "20220615_0003",
-    "last_opened_file_path": "/Users/fabriciojacob/Documents/repositorios/java-atualizacoes",
-    "settings.editor.selected.configurable": "editor.preferences.import"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TF_FMT&quot;: &quot;false&quot;,
+    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20220615_0003&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/fabriciojacob/Documents/repositorios/java-atualizacoes&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InfinitStream">
+  <component name="RunManager" selected="Application.br.com.github.v3.programacaofuncional.RetornoInterfaceFunctional">
     <configuration name="DebugLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.programacaofuncional.DebugLambda" />
+      <option name="MAIN_CLASS_NAME" value="br.com.github.v3.programacaofuncional.DebugLambda" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.programacaofuncional.*" />
+          <option name="PATTERN" value="br.com.github.v3.programacaofuncional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="FiltrandoElementsOfStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.programacaofuncional.FiltrandoElementsOfStream" />
+      <option name="MAIN_CLASS_NAME" value="br.com.github.v3.programacaofuncional.FiltrandoElementsOfStream" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.programacaofuncional.*" />
+          <option name="PATTERN" value="br.com.github.v3.programacaofuncional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,11 +90,11 @@
       </method>
     </configuration>
     <configuration name="InfinitStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.programacaofuncional.InfinitStream" />
+      <option name="MAIN_CLASS_NAME" value="br.com.github.v3.programacaofuncional.InfinitStream" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.programacaofuncional.*" />
+          <option name="PATTERN" value="br.com.github.v3.programacaofuncional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +103,11 @@
       </method>
     </configuration>
     <configuration name="RetornoInterfaceFunctional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.programacaofuncional.RetornoInterfaceFunctional" />
+      <option name="MAIN_CLASS_NAME" value="br.com.github.v3.programacaofuncional.RetornoInterfaceFunctional" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.programacaofuncional.*" />
+          <option name="PATTERN" value="br.com.github.v3.programacaofuncional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +116,11 @@
       </method>
     </configuration>
     <configuration name="TestandoMethodUseLambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.v3.programacaofuncional.TestandoMethodUseLambdas" />
+      <option name="MAIN_CLASS_NAME" value="br.com.github.v3.programacaofuncional.TestandoMethodUseLambdas" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.v3.programacaofuncional.*" />
+          <option name="PATTERN" value="br.com.github.v3.programacaofuncional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InfinitStream" />
-        <item itemvalue="Application.FiltrandoElementsOfStream" />
-        <item itemvalue="Application.DebugLambda" />
-        <item itemvalue="Application.TestandoMethodUseLambdas" />
-        <item itemvalue="Application.RetornoInterfaceFunctional" />
+        <item itemvalue="Application.br.com.github.v3.programacaofuncional.RetornoInterfaceFunctional" />
+        <item itemvalue="Application.br.com.github.v3.programacaofuncional.InfinitStream" />
+        <item itemvalue="Application.br.com.github.v3.programacaofuncional.FiltrandoElementsOfStream" />
+        <item itemvalue="Application.br.com.github.v3.programacaofuncional.DebugLambda" />
+        <item itemvalue="Application.br.com.github.v3.programacaofuncional.TestandoMethodUseLambdas" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655346606648</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add">
+      <created>1655474666937</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655474666937</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
