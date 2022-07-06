@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/SwitchCaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwitchCaseTest">
+  <component name="RunManager" selected="Application.CalculoEmprestimo">
     <configuration name="AnoBissexto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.github.AnoBissexto" />
       <module name="novidades-java-minors" />
@@ -83,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IMC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.github.IMC" />
+    <configuration name="CalculoEmprestimo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.CalculoEmprestimo" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
@@ -96,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RetornoInterfaceFunctional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.github.v3.programacaofuncional.RetornoInterfaceFunctional" />
+    <configuration name="IMC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.IMC" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.github.v3.programacaofuncional.*" />
+          <option name="PATTERN" value="br.com.github.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculoEmprestimo" />
         <item itemvalue="Application.SwitchCaseTest" />
         <item itemvalue="Application.IMC" />
         <item itemvalue="Application.AnoBissexto" />
@@ -224,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656469307810</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add">
+      <created>1656987176851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656987176851</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
