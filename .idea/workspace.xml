@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/CalcularPesoAeronave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -51,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "TF_FMT": "false",
-    "com.google.cloudcode.ide_session_index": "20220704_0000",
+    "com.google.cloudcode.ide_session_index": "20220711_0002",
     "last_opened_file_path": "/Users/fabriciojacob/Documents/repositorios/java-atualizacoes",
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
@@ -61,7 +63,7 @@
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculoEmprestimo">
+  <component name="RunManager" selected="Application.CalcularPesoAeronave">
     <configuration name="AnoBissexto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.github.AnoBissexto" />
       <module name="novidades-java-minors" />
@@ -75,9 +77,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraIdadeMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalculadoraIdadeMedia" />
+    <configuration name="CalcularPesoAeronave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.CalcularPesoAeronave" />
       <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalcularPesoAeronave" />
         <item itemvalue="Application.CalculoEmprestimo" />
         <item itemvalue="Application.SwitchCaseTest" />
         <item itemvalue="Application.IMC" />
         <item itemvalue="Application.AnoBissexto" />
-        <item itemvalue="Application.CalculadoraIdadeMedia" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656987176851</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add">
+      <created>1657072325320</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657072325320</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
