@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/InverterNumero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/NumeroPrimo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/SomaNumerosPares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/abordagensconsulta/Simulacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "com.google.cloudcode.ide_session_index": "20220718_0000",
+    "com.google.cloudcode.ide_session_index": "20220807_0000",
     "last_opened_file_path": "/Users/fabriciojacob/Documents/repositorios/java-atualizacoes",
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
@@ -66,22 +64,9 @@
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InverterNumero">
+  <component name="RunManager" selected="Application.Simulacao">
     <configuration name="CalcularPesoAeronave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.github.CalcularPesoAeronave" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.github.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculoEmprestimo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.github.CalculoEmprestimo" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
@@ -119,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Simulacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.abordagensconsulta.Simulacao" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.github.abordagensconsulta.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SomaNumerosPares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.github.SomaNumerosPares" />
       <module name="novidades-java-minors" />
@@ -134,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Simulacao" />
         <item itemvalue="Application.InverterNumero" />
         <item itemvalue="Application.NumeroPrimo" />
         <item itemvalue="Application.SomaNumerosPares" />
         <item itemvalue="Application.CalcularPesoAeronave" />
-        <item itemvalue="Application.CalculoEmprestimo" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657589815420</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add">
+      <created>1658196010176</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658196010176</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
