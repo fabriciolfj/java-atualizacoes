@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/GerarSenhasAleatorias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/InfiniteSequentialStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/PseudoRandomValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/TestTakeWhile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "com.google.cloudcode.ide_session_index": "20220907_0000",
+    "com.google.cloudcode.ide_session_index": "20220907_0001",
     "last_opened_file_path": "/Users/fabriciojacob/Library/CloudStorage/OneDrive-Pessoal/Documentos/repositorios/java-atualizacoes",
     "settings.editor.selected.configurable": "editor.preferences.import"
   }
@@ -66,7 +64,7 @@
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GerarSenhasAleatorias">
+  <component name="RunManager" selected="Application.TestTakeWhile">
     <configuration name="GerarSenhasAleatorias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.github.GerarSenhasAleatorias" />
       <module name="novidades-java-minors" />
@@ -82,19 +80,6 @@
     </configuration>
     <configuration name="InfiniteSequentialStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.github.InfiniteSequentialStream" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.github.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InverterNumero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.github.InverterNumero" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
@@ -132,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTakeWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.TestTakeWhile" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.github.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTakeWhile" />
         <item itemvalue="Application.GerarSenhasAleatorias" />
         <item itemvalue="Application.PseudoRandomValues" />
         <item itemvalue="Application.InfiniteSequentialStream" />
         <item itemvalue="Application.Simulacao" />
-        <item itemvalue="Application.InverterNumero" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659881216952</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add">
+      <created>1662597722666</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662597722666</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
