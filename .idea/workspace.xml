@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/desafios/ContratoTrabalho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/desafios/FolhaPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/desafios/Functionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/desafios/Holerite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/desafios/Simulacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/java19/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/java19/TestInstanceOfNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableAsync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableComConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableComFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableComSupply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableFutureBoth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableFutureCombine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableFutureCompose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableFutureExcecutarUmaAcao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableFutureExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableThenApply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/ExecutandoVariosCompletable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/github/v1/http2/TesteRequestHttp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/github/v1/http2/TesteRequestHttp2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/github/v3/AgrupandoValoresImparPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/github/v3/AgrupandoValoresImparPar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "com.google.cloudcode.ide_session_index": "20221004_0001",
+    "com.google.cloudcode.ide_session_index": "20221104_0001",
     "ignore.preview.features.used": "true",
     "last_opened_file_path": "/Users/fabriciojacob/Library/CloudStorage/OneDrive-Pessoal/Documentos/repositorios/java-atualizacoes",
     "project.structure.last.edited": "Modules",
@@ -76,31 +81,65 @@
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Simulacao">
-    <configuration name="Simulacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.github.desafios.Simulacao" />
+  <component name="RunManager" selected="Application.CompletableAsync">
+    <configuration name="CompletableAsync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.completablefuture.CompletableAsync" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.github.desafios.*" />
+          <option name="PATTERN" value="br.com.github.completablefuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInstanceOfNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.github.java19.TestInstanceOfNew" />
+    <configuration name="CompletableFutureBoth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.completablefuture.CompletableFutureBoth" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.github.java19.*" />
+          <option name="PATTERN" value="br.com.github.completablefuture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompletableFutureExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.completablefuture.CompletableFutureExceptions" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.github.completablefuture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompletableThenApply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.completablefuture.CompletableThenApply" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.github.completablefuture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutandoVariosCompletable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.completablefuture.ExecutandoVariosCompletable" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.github.completablefuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,13 +148,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Simulacao" />
-      <item itemvalue="Application.TestInstanceOfNew" />
+      <item itemvalue="Application.CompletableAsync" />
+      <item itemvalue="Application.CompletableFutureBoth" />
+      <item itemvalue="Application.CompletableFutureExceptions" />
+      <item itemvalue="Application.CompletableThenApply" />
+      <item itemvalue="Application.ExecutandoVariosCompletable" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Simulacao" />
-        <item itemvalue="Application.TestInstanceOfNew" />
+        <item itemvalue="Application.CompletableAsync" />
+        <item itemvalue="Application.CompletableFutureExceptions" />
+        <item itemvalue="Application.ExecutandoVariosCompletable" />
+        <item itemvalue="Application.CompletableThenApply" />
+        <item itemvalue="Application.CompletableFutureBoth" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664326198386</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add">
+      <created>1664881548568</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1664881548568</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,6 +378,11 @@
           <url>file://$PROJECT_DIR$/src/br/com/github/IMC.java</url>
           <line>21</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/github/desafios/Functionario.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
