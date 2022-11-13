@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableAsync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableComConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableComFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableComSupply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableFutureBoth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableFutureCombine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableFutureCompose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableFutureExcecutarUmaAcao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableFutureExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableThenApply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/ExecutandoVariosCompletable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableDelay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/completablefuture/CompletableFutureTimeout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/github/v1/http2/TesteRequestHttp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/github/v1/http2/TesteRequestHttp2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/github/v3/AgrupandoValoresImparPar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/github/v3/AgrupandoValoresImparPar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "com.google.cloudcode.ide_session_index": "20221104_0001",
+    "com.google.cloudcode.ide_session_index": "20221112_0002",
     "ignore.preview.features.used": "true",
     "last_opened_file_path": "/Users/fabriciojacob/Library/CloudStorage/OneDrive-Pessoal/Documentos/repositorios/java-atualizacoes",
     "project.structure.last.edited": "Modules",
@@ -81,7 +70,7 @@
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompletableAsync">
+  <component name="RunManager" selected="Application.CompletableFutureTimeout">
     <configuration name="CompletableAsync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.github.completablefuture.CompletableAsync" />
       <module name="novidades-java-minors" />
@@ -95,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableFutureBoth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.github.completablefuture.CompletableFutureBoth" />
+    <configuration name="CompletableDelay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.completablefuture.CompletableDelay" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompletableThenApply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.github.completablefuture.CompletableThenApply" />
+    <configuration name="CompletableFutureTimeout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.completablefuture.CompletableFutureTimeout" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
@@ -148,19 +137,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CompletableDelay" />
+      <item itemvalue="Application.CompletableFutureTimeout" />
       <item itemvalue="Application.CompletableAsync" />
-      <item itemvalue="Application.CompletableFutureBoth" />
       <item itemvalue="Application.CompletableFutureExceptions" />
-      <item itemvalue="Application.CompletableThenApply" />
       <item itemvalue="Application.ExecutandoVariosCompletable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompletableFutureTimeout" />
+        <item itemvalue="Application.CompletableDelay" />
         <item itemvalue="Application.CompletableAsync" />
         <item itemvalue="Application.CompletableFutureExceptions" />
         <item itemvalue="Application.ExecutandoVariosCompletable" />
-        <item itemvalue="Application.CompletableThenApply" />
-        <item itemvalue="Application.CompletableFutureBoth" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664881548568</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add">
+      <created>1667607955584</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1667607955584</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
