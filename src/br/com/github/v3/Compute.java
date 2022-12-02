@@ -18,9 +18,11 @@ public class Compute {
         BiFunction<String, String, String> jdbc = (k,v) -> k + "://" + (v == null ? address : v) + "/customers_db";
 
         String mongoDb = map.compute("mongodb", jdbc);
+        var test = jdbc.apply("mysql", "192.168.0.1");
 
         String mongoDb2 = map.compute("mongodb", jdbc);
         System.out.println(mongoDb);
         System.out.println(map);
+        System.out.println(test);
     }
 }
