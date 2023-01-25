@@ -44,3 +44,12 @@ public record FXOrder(int units,
 }
 
 ```
+
+### Bytecode
+- para ver o bycode de uma classe, execute:
+````
+javap -c -p ArraySimulacao
+
+````
+
+### Ciclo de vida de uma thread
