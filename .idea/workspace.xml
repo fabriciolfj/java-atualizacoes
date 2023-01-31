@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="adda">
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/FSOAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/SimulacaoDeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/SimulacaoLostUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/TesteThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/colecoes/ArraySimulacao.class" afterDir="false" />
+    <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/bookjava/MultiplasThreadsWriteHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/github/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/github/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/github/SimulacaoLostUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/github/SimulacaoLostUpdate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,6 +47,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="1vsD0QhlRE9y9w2H0mARx9zKO5i" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "com.google.cloudcode.ide_session_index": "20230124_0002",
+    "com.google.cloudcode.ide_session_index": "20230130_0002",
     "ignore.preview.features.used": "true",
     "last_opened_file_path": "/Users/fabriciojacob/Library/CloudStorage/OneDrive-Pessoal/repositorios/repositorios/java-atualizacoes",
     "project.structure.last.edited": "Modules",
@@ -76,13 +79,26 @@
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimulacaoLostUpdate">
+  <component name="RunManager" selected="Application.MultiplasThreadsWriteHashMap">
     <configuration name="ArraySimulacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.github.colecoes.ArraySimulacao" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.github.colecoes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiplasThreadsWriteHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.bookjava.MultiplasThreadsWriteHashMap" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.github.bookjava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,20 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestePreView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.github.TestePreView" />
-      <module name="novidades-java-minors" />
-      <option name="VM_PARAMETERS" value="--enable-preview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.github.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TesteThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.github.TesteThread" />
       <module name="novidades-java-minors" />
@@ -144,19 +146,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MultiplasThreadsWriteHashMap" />
       <item itemvalue="Application.SimulacaoDeadLock" />
       <item itemvalue="Application.SimulacaoLostUpdate" />
       <item itemvalue="Application.TesteThread" />
       <item itemvalue="Application.ArraySimulacao" />
-      <item itemvalue="Application.TestePreView" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiplasThreadsWriteHashMap" />
         <item itemvalue="Application.SimulacaoLostUpdate" />
         <item itemvalue="Application.TesteThread" />
         <item itemvalue="Application.SimulacaoDeadLock" />
         <item itemvalue="Application.ArraySimulacao" />
-        <item itemvalue="Application.TestePreView" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673953599520</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add">
+      <created>1674690045494</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1674690045494</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -395,9 +404,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add" />
     <MESSAGE value="adda" />
-    <option name="LAST_COMMIT_MESSAGE" value="adda" />
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

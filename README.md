@@ -52,4 +52,17 @@ javap -c -p ArraySimulacao
 
 ````
 
-### Ciclo de vida de uma thread
+### Inteface lock
+- adiciona diferentes tipos de bloqueios (como bloqueios de leitura/escrita)
+- não restringe bloqueios a blocos(permite bloqueio a um método e um desbloqueio em outro)
+- se uma thread não adquirir um bloqueio,permite que ela volte ou faça outra coisa
+- permite que uma thread tente adquirir um bloqueio e desista após um determinado período de tempo
+
+#### Implementações da interface lock
+- reentrantLock -> equivale ao synchronized, so que mais flexível
+- reentrantReadWriteLock -> oferece melhor desempenho onde há muitos leituros e poucos escritores
+
+### CountdownLatch
+- fornece uma barreira de consenso, prmite que várias threads alcancem um ponto de coordenação e esperem até que a barreira seja liberada.
+- para isso forneça uma int ao construi-lo
+- o operator await bloquea o método até que chegue a 0 o contador (countDown())

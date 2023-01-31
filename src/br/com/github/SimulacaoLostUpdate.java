@@ -7,10 +7,13 @@ public class SimulacaoLostUpdate {
         Thread tA = new Thread(() -> acc.rawDeposit(70));
         Thread tB = new Thread(() -> acc.rawDeposit(50));
         tA.start();
+
+
         tB.start();
-        tA.join();
         tB.join();
+        tA.join();
 
         System.out.println(acc.getRawBalance());
+
     }
 }
