@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2293f5ed-7e4a-40fd-8d6e-86c6be4b4b81" name="Default Changelist" comment="add">
-      <change afterPath="$PROJECT_DIR$/src/br/com/github/bookjava/MultiplasThreadsWriteHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/bookjava/COWExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/queuejava/accounts/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/queuejava/accounts/AccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/queuejava/accounts/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/github/queuejava/accounts/TransferTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/github/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/github/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/github/SimulacaoLostUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/github/SimulacaoLostUpdate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +66,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TF_FMT": "false",
-    "com.google.cloudcode.ide_session_index": "20230130_0002",
+    "com.google.cloudcode.ide_session_index": "20230131_0001",
     "ignore.preview.features.used": "true",
-    "last_opened_file_path": "/Users/fabriciojacob/Library/CloudStorage/OneDrive-Pessoal/repositorios/repositorios/java-atualizacoes",
+    "last_opened_file_path": "/Users/fabriciojacob/Library/CloudStorage/OneDrive-Pessoal/repositorios/repositorios/java-atualizacoes/src/br/com/github/queuejava",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.287687",
@@ -74,18 +76,35 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/br/com/github/queuejava" />
+      <recent name="$PROJECT_DIR$/src/br/com/github/bookjava" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.github.generics_pecs" />
       <recent name="br.com.alura.v3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiplasThreadsWriteHashMap">
-    <configuration name="ArraySimulacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.github.colecoes.ArraySimulacao" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="COWExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.bookjava.COWExamples" />
       <module name="novidades-java-minors" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.github.colecoes.*" />
+          <option name="PATTERN" value="br.com.github.bookjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.github.queuejava.accounts.Main" />
+      <module name="novidades-java-minors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.github.queuejava.accounts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,19 +118,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.github.bookjava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimulacaoDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.github.SimulacaoDeadLock" />
-      <module name="novidades-java-minors" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.github.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +152,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.COWExamples" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.MultiplasThreadsWriteHashMap" />
-      <item itemvalue="Application.SimulacaoDeadLock" />
       <item itemvalue="Application.SimulacaoLostUpdate" />
       <item itemvalue="Application.TesteThread" />
-      <item itemvalue="Application.ArraySimulacao" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.COWExamples" />
         <item itemvalue="Application.MultiplasThreadsWriteHashMap" />
         <item itemvalue="Application.SimulacaoLostUpdate" />
         <item itemvalue="Application.TesteThread" />
-        <item itemvalue="Application.SimulacaoDeadLock" />
-        <item itemvalue="Application.ArraySimulacao" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674690045494</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="add">
+      <created>1675126332840</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1675126332840</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

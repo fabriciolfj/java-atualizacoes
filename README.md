@@ -66,3 +66,43 @@ javap -c -p ArraySimulacao
 - fornece uma barreira de consenso, prmite que várias threads alcancem um ponto de coordenação e esperem até que a barreira seja liberada.
 - para isso forneça uma int ao construi-lo
 - o operator await bloquea o método até que chegue a 0 o contador (countDown())
+
+### CopyOnWriteArrayList
+- tira uma copia da lista quando esta é modificada, por exemplo abaixo:
+```
+        var ls = new CopyOnWriteArrayList(List.of(1, 2, 3));
+        var it = ls.iterator();
+        ls.add(4);
+        var modifiedIt = ls.iterator();
+        while (it.hasNext()) {
+            System.out.println("Original: "+ it.next());
+        }
+        while (modifiedIt.hasNext()) {
+            System.out.println("Modified: "+ modifiedIt.next());
+        }
+```
+
+### Queue
+- utilizamos mais a interface BlockingQueue, que extende a interface Queue
+- Existem alguns operadores, como:
+  - put -> colocar um item na fila
+  - take() -> esperar surgir um item na fila, caso surja, processe e libere o take
+  - pool espere durante um tempo na fila, caso não surja nenhum item, retorna um null
+  - affer() lança uma exception, caso não tenha nenhum item
+- O funcionamento entre consumir e produzir itens na fila via threads, segue:
+  - a thread produz um item na fila put, e essa não é bloqueada
+  - a thread que chamar um take(), ela ficará bloqueada até que surja um item
+  - caso a fila esteja cheia, a thread é bloqueada no momento do put, até que seja liberado espaço
+
+### Workunit
+- é uma classe container, onde embrulhamos o body da mensagem ou objeto a ser inserido na fila
+- ideal para testes, metadados de metricas e etc
+
+### shutdown de um pool de threads
+- inicia o desligamento ordenado, ou seja, as tarefas nos pool são executadas/concluídas e nenhuma nova tarefa é aceita.
+
+### Executors
+- single thread executor -> executor com uma única thread
+- fixed thread pool -> pool com um número fixo de threads, passada por parâmetro
+- cache thread pool -> cria threads no cache, conforme a necessidade, e as destroi após 60 segundos sem uso (obs, pode criar muitas threads)
+- scheduled thread pool executor -> criá uma thread, após a conclusão da anterior  e o atraso especificado tiver decorrido
