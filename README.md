@@ -106,3 +106,33 @@ javap -c -p ArraySimulacao
 - fixed thread pool -> pool com um número fixo de threads, passada por parâmetro
 - cache thread pool -> cria threads no cache, conforme a necessidade, e as destroi após 60 segundos sem uso (obs, pode criar muitas threads)
 - scheduled thread pool executor -> criá uma thread, após a conclusão da anterior  e o atraso especificado tiver decorrido
+
+### Desempenho JVM
+
+#### latencia
+- tempo de ponta a ponta necessário para processar uma unica unidade de trabalho em uma determinada carga de trabalho.
+
+#### Throughput
+- número de unidades de trabalho que um sistema pode executar, em algum período de tempo com recursos fornecidos
+
+#### Capacidade
+- número de unidades de trabalho que podem estar em andamento, pelo sistema a qualquer momento.
+
+#### Escalabilidade
+- a medida que os recursos são adicionados a um sistema, a taxa de transferência (ou latência) muda. Essa mudança na taxa de transferência ou latência é a escalabilidade do sistema
+
+#### Degradação
+- quando ao adicionar unidades de trabalho a um sistema, causará um efeito negativo, seja aumento da latência do processamento.
+
+### Memoria JVM
+- pilha -> onde as variávies locais  primitivas são armazenadas e variavéis do tipo referência
+- as variavéis do tipo referência na stack (pilha), apontam para um local no heap
+- heap -> aonde os objetos são criados
+- gc (coleta de lixo) -> tira do heap variáveis que não estão sendo utilizadas 
+- em 2022, a prática recomendada para a maioria das cargas de trabalho, na ausência de qualquer outra evidência, é definir Xmxe não definir Xms.
+
+### JIT (just in time)
+- compilação na hora certa
+- java é compilado
+- a jvm verifica o bytecode gerado, e os métodos mais utilizados primeiro, são compilados
+- ou seja, na jvm moderna, os métodos são compilados sobdemanda
