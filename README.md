@@ -136,3 +136,14 @@ javap -c -p ArraySimulacao
 - java é compilado
 - a jvm verifica o bytecode gerado, e os métodos mais utilizados primeiro, são compilados
 - ou seja, na jvm moderna, os métodos são compilados sobdemanda
+
+
+### Hotspot
+- java é uma linguagem dinamicamente compilada, ou seja:
+ - gera o bytecode (faz o uso da interpretação)
+ - os métodos mais utilizados são transformados em linguagem de máquina, tornando 100 vezes mais rapidos
+
+### Versionamento
+- PRINCIPAL -> 1.x
+- MINOR -> tem retrocompatibilidade com versões anteriores 1.1
+ PATH, para correções e bugs 1.1.1
