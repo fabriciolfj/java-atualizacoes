@@ -147,3 +147,74 @@ javap -c -p ArraySimulacao
 - PRINCIPAL -> 1.x
 - MINOR -> tem retrocompatibilidade com versões anteriores 1.1
  PATH, para correções e bugs 1.1.1
+
+### Fork/Join
+- o aumento da velocidade e cores dos processados, aumentaram muito
+- mas o desempenho I/O não teve uma melhora notável
+- Fork/join é uma tentativa de melhorar o desempenho do I/O
+- alguns componentes que fazem parte do framework fork/join:
+  - forkjoinpool -> é um poll executor
+  - forkjointask -> é uma tarefa menor que a thread
+- forjoin é ideal para solucionar problemas, que podem ser divididos
+- por fim o forkjoin expõe os seguintes métodos primários:
+  - execute() -> começa uma execução assíncrona
+  - invoke() -> começa execução e aguarda o resultado
+  - submit() -> começa a execução e retorna um futuro para o resultado
+- O paralelismo, usando o api parallelStream, utilize com cuidado, pois ela utiliza um pool comum de threads, onde concorrerá por recursos, diminuindo o desempenho.
+- é acomselhável combinar com o forkjoin pool, assim:
+```
+// Use a custom pool
+var forkJoinPool = new ForkJoinPool(4);
+List<String> origins2 = forkJoinPool.submit(() -> musicians
+    .parallelStream()
+    .filter(artist -> artist.getName().startsWith("The"))
+    .map(artist -> artist.getNationality())
+    .collect(toList())).get();
+forkJoinPool.shutdown();
+```
+
+### Uso de identificadores de métodos
+- os identificadores são uteis para utilizar na reflexão
+- ideal para acessar métodos privados
+- mais rápidos que a api antiga de reflexão
+- exemplo:
+- antiga
+```
+    public Method makeReflective() {
+        Method meth = null;
+ 
+        try {
+            Class<?>[] argTypes = new Class[] { Void.class };
+            meth = ExamplePrivate.class
+                       .getDeclaredMethod("callThePrivate", argTypes);
+            meth.setAccessible(true);
+        } catch (IllegalArgumentException |
+                    NoSuchMethodException |
+                    SecurityException e) {
+            throw (AssertionError)new AssertionError().initCause(e);
+        }
+ 
+        return meth;
+    }
+```
+- nova (a partir do java 8)
+```
+    public MethodHandle makeMh() {
+        MethodHandle mh;
+        var desc = MethodType.methodType(void.class);
+ 
+        try {
+            mh = MethodHandles.lookup()
+                     .findVirtual(ExamplePrivate.class,
+                         "callThePrivate", desc);
+        } catch (NoSuchMethodException | IllegalAccessException e) {
+            throw (AssertionError)new AssertionError().initCause(e);
+        }
+ 
+        return mh;
+    }
+```
+- exemplo de uso para gerar uma logger:
+```
+Logger lgr = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
+```
