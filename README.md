@@ -218,3 +218,10 @@ forkJoinPool.shutdown();
 ```
 Logger lgr = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 ```
+
+## Alocação memoria jvm
+- Na Java Virtual Machine (JVM), as variáveis de instância (também conhecidas como variáveis de membro) são armazenadas em uma área de memória chamada heap. A heap é a área de memória compartilhada por todos os threads em execução na JVM e é usada para armazenar objetos e outras estruturas de dados dinamicamente alocados.
+
+- Quando um objeto é criado em Java, um espaço é alocado na heap para armazenar suas variáveis de instância. Cada variável de instância é armazenada em um deslocamento específico dentro desse espaço de objeto, que é calculado em tempo de compilação com base no layout da classe e nas informações sobre os tipos de dados das variáveis de instância.
+
+- Ao contrário das variáveis locais, que são armazenadas na stack e são alocadas e desalocadas automaticamente quando um método é chamado e retorna, as variáveis de instância são alocadas e desalocadas manualmente pelo programador, usando o operador new para criar novos objetos e o garbage collector para liberar a memória alocada por objetos que não estão mais em uso.
