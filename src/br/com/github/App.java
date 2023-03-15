@@ -10,5 +10,8 @@ public class App {
                 .limit(10)
                 .forEach(System.out::println);
         //x = 30;
+
+        String myStr = "Hello planet earth, you are a great planet.";
+        System.out.println(myStr.indexOf("e", 5));
     }
 }
