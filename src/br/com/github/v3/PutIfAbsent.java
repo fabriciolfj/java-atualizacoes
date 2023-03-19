@@ -10,8 +10,11 @@ public class PutIfAbsent {
         map.put(1, "mysql");
 
         var mysql = map.putIfAbsent(1, "mysql");
+        System.out.println(map);
         var postgres = map.putIfAbsent(2, "postgres");
+        System.out.println(map);
         var postgres3 = map.putIfAbsent(2, "postgres");
+        System.out.println(map);
         var cassandra = map.putIfAbsent(3, "cassandra");
 
         System.out.println(mysql);

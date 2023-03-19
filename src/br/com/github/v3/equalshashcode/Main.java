@@ -9,5 +9,10 @@ public class Main {
 
         System.out.println(p1.equals(p2));
         System.out.println(p1.equals(p3));
+
+        int num = 100;
+        if (num == 101) {
+            System.out.println("ok");
+        }
     }
 }
