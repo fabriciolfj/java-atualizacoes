@@ -225,3 +225,12 @@ Logger lgr = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 - Quando um objeto é criado em Java, um espaço é alocado na heap para armazenar suas variáveis de instância. Cada variável de instância é armazenada em um deslocamento específico dentro desse espaço de objeto, que é calculado em tempo de compilação com base no layout da classe e nas informações sobre os tipos de dados das variáveis de instância.
 
 - Ao contrário das variáveis locais, que são armazenadas na stack e são alocadas e desalocadas automaticamente quando um método é chamado e retorna, as variáveis de instância são alocadas e desalocadas manualmente pelo programador, usando o operador new para criar novos objetos e o garbage collector para liberar a memória alocada por objetos que não estão mais em uso.
+
+## callable vs supplier
+- callable -> retorna um objeto, podendo lançar uma exception, indicado quando a tarefe é executada em outra thread. Em uma cadeia de chamadas, nao fica performatico, pois o tempo para concluir processo como um todo e a soma do tempo de cada tarefa. 
+- supplier -> retorna um objeto, uso mais frequente e adiar a execução de algum código. Em varia tarefas, com apoio do completableFuture, cada uma e executada independentemente ou em paralelo, resolvendo o problema no uso do future com callable.
+
+## completablefuture join vs get
+- join pode lançar uma exception não verificada
+- get exige que o programador capture a exception.
+- ambos sincronização e retornam o valor

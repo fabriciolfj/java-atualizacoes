@@ -18,13 +18,11 @@ public class Simulacao {
                 new City("Paris", "France"),
                 new City("Paris", "Texas, USA"));
 
-        final Map<String, City> values =
-                CITY_INPUT
-                        .stream()
-                                .collect(toMap(City::getName, Function.identity(), (f, s) -> {
-                                    var result = f.getLocateIn() + " " + s.getLocateIn();
-                                    return new City(f.getName(), result);
-                                }));
+        final Map<String, City> values = CITY_INPUT.stream()
+                        .collect(toMap(City::getName, Function.identity(), (f , s) -> {
+                            var result = f.getLocateIn() + " - " + s.getLocateIn();
+                            return new City(f.getName(), result);
+                        }));
 
         System.out.println(values);
     }
