@@ -129,7 +129,7 @@ javap -c -p ArraySimulacao
 - as variavéis do tipo referência na stack (pilha), apontam para um local no heap
 - heap -> aonde os objetos são criados
 - gc (coleta de lixo) -> tira do heap variáveis que não estão sendo utilizadas 
-- em 2022, a prática recomendada para a maioria das cargas de trabalho, na ausência de qualquer outra evidência, é definir Xmxe não definir Xms.
+- em 2022, a prática recomendada para a maioria das cargas de trabalho, na ausência de qualquer outra evidência, é definir Xmx e não definir Xms.
 
 ### JIT (just in time)
 - compilação na hora certa
