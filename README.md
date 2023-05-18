@@ -134,8 +134,8 @@ javap -c -p ArraySimulacao
 ### JIT (just in time)
 - compilação na hora certa
 - java é compilado
-- a jvm verifica o bytecode gerado, e os métodos mais utilizados primeiro, são compilados
-- ou seja, na jvm moderna, os métodos são compilados sobdemanda
+- a jvm verifica o bytecode gerado, e os métodos mais utilizados primeiro, são transformados em linguagem de maquina
+- ou seja, na jvm moderna, os métodos são transformados sobdemanda
 
 
 ### Hotspot
