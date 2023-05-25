@@ -234,3 +234,6 @@ Logger lgr = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 - join pode lançar uma exception não verificada
 - get exige que o programador capture a exception.
 - ambos sincronização e retornam o valor
+
+## ReentrantLock
+- é uma classe que fornece recursos avançados de bloqueio exclusivo (lock) para controle de concorrência em threads. Ele é chamado de "reentrante" porque uma thread que já possui o bloqueio pode adquiri-lo novamente, sem causar um deadlock.
