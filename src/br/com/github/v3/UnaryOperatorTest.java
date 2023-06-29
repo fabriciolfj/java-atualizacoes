@@ -25,6 +25,9 @@ public class UnaryOperatorTest {
 
         System.out.println(calc(2, mult));
         System.out.println(calc(2, mult, mult2));
+
+        var operation = teste("teste", 2);
+        System.out.println("result " + operation.apply(8));
     }
 
     private static Integer calc(Integer value, UnaryOperator<Integer> form) {
@@ -33,5 +36,10 @@ public class UnaryOperatorTest {
 
     private static Integer calc(Integer value, UnaryOperator<Integer> form, UnaryOperator<Integer> mult2) {
         return mult2.andThen(form).apply(value);
+    }
+
+    private static UnaryOperator<Integer> teste(String print, Integer value) {
+        System.out.println(print);
+        return i -> i + value;
     }
 }
