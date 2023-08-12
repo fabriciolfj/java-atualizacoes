@@ -237,3 +237,8 @@ Logger lgr = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 
 ## ReentrantLock
 - é uma classe que fornece recursos avançados de bloqueio exclusivo (lock) para controle de concorrência em threads. Ele é chamado de "reentrante" porque uma thread que já possui o bloqueio pode adquiri-lo novamente, sem causar um deadlock.
+
+# Garbage collector geracional
+- propõe melhorar o desempenho do aplicativo estendendo o Z Garbage Collector (ZGC) para manter gerações separadas para objetos novos e antigos. Isso permitirá que o ZGC colete objetos jovens, que tendem a morrer jovens, com mais frequência
+- visa diminuir os riscos de paradas de alocação, reduzir a sobrecarga de memória heap necessária e diminuir a sobrecarga da CPU de coleta de lixo
+- O ZGC geracional é baseado na hipótese geracional fraca, que afirma que objetos jovens tendem a morrer jovens, enquanto objetos antigos tendem a permanecer. Ao coletar objetos jovens com mais frequência, o ZGC pode melhorar o desempenho dos aplicativos
