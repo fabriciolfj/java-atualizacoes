@@ -242,3 +242,19 @@ Logger lgr = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass());
 - propõe melhorar o desempenho do aplicativo estendendo o Z Garbage Collector (ZGC) para manter gerações separadas para objetos novos e antigos. Isso permitirá que o ZGC colete objetos jovens, que tendem a morrer jovens, com mais frequência
 - visa diminuir os riscos de paradas de alocação, reduzir a sobrecarga de memória heap necessária e diminuir a sobrecarga da CPU de coleta de lixo
 - O ZGC geracional é baseado na hipótese geracional fraca, que afirma que objetos jovens tendem a morrer jovens, enquanto objetos antigos tendem a permanecer. Ao coletar objetos jovens com mais frequência, o ZGC pode melhorar o desempenho dos aplicativos
+
+# Computed constant
+- iniciar de forma flexivel e com bom desempenho as constantes statics
+```
+class Bar {
+    // 1. Declare a computed constant value
+    private static final ComputedConstant<Logger> LOGGER =
+            ComputedConstant.of( () -> Logger.getLogger("com.foo.Bar") );
+
+    static Logger logger() {
+        // 2. Access the computed value
+        //    (evaluation made before the first access)
+        return LOGGER.get();
+    }
+}
+```
