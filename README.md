@@ -1,4 +1,4 @@
-# java-atualizacoes
+# java atualizacoes
 
 ## Módulos
 - uma outra forma de impor restrições de acesso a classes públicas dentro de certos pacotes
