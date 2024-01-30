@@ -1,4 +1,4 @@
-# java atualizacoes
+# java atualizacoes (atualizar)
 
 ## Módulos
 - uma outra forma de impor restrições de acesso a classes públicas dentro de certos pacotes
@@ -257,4 +257,30 @@ class Bar {
         return LOGGER.get();
     }
 }
+```
+## AOT vs JIT
+```
+AOT (Ahead-Of-Time) é uma forma de compilação em que o código fonte é compilado numa build antes de rodar a aplicação. Isso contrasta com a compilação JIT (Just-In-Time).
+
+Alguns pontos sobre AOT:
+
+- O código é compilado para código nativo de máquina durante o build, não em tempo de execução.
+
+- Como o código já está compilado, a aplicação inicia e roda mais rápido, com melhor performance.
+
+- Porém as builds podem demorar mais por ter que compilar todo o código para nativo.
+
+- Ocupa mais espaço em disco por ter os binários nativos.
+
+Alguns casos de uso:
+
+- Aplicações mobile, para performance e tamanho menor.
+
+- Serverless e containers, para startup mais rápido.
+
+- APIs e microsserviços que demandam performance.
+
+Frameworks como Angular e Vue.js estão migrando para AOT visando melhor performance.
+
+Então em resumo, AOT compila para código nativo no build em vez de durante a execução, ganhando em velocidade de inicialização e processamento, mas podendo aumentar o tempo e complexidade das builds.
 ```
