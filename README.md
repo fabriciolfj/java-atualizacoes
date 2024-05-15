@@ -284,3 +284,8 @@ Frameworks como Angular e Vue.js estão migrando para AOT visando melhor perform
 
 Então em resumo, AOT compila para código nativo no build em vez de durante a execução, ganhando em velocidade de inicialização e processamento, mas podendo aumentar o tempo e complexidade das builds.
 ```
+
+# comando para ver as areas de memoria java
+```
+jcmd pid VM.native_memory summary
+```
