@@ -288,4 +288,5 @@ Então em resumo, AOT compila para código nativo no build em vez de durante a e
 # comando para ver as areas de memoria java
 ```
 jcmd pid VM.native_memory summary
+jcmd pid GC.heap_info
 ```
