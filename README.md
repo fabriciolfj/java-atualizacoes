@@ -290,3 +290,13 @@ Então em resumo, AOT compila para código nativo no build em vez de durante a e
 jcmd pid VM.native_memory summary
 jcmd pid GC.heap_info
 ```
+
+# compilação antecipada
+```
+
+A compilação antecipada, também conhecida como compilação Ahead-of-Time (AOT), refere-se ao processo de compilar código-fonte em linguagem de máquina ou em uma representação intermediária antes da execução do programa. Isso é feito como uma alternativa à compilação Just-in-Time (JIT), na qual o código é compilado durante a execução do programa.
+
+A compilação antecipada tem várias vantagens, como redução do tempo de inicialização do programa, potencial para otimizações mais agressivas e maior previsibilidade de desempenho. No entanto, também pode aumentar o tempo de compilação e exigir uma implementação cuidadosa para garantir a portabilidade do código compilado para diferentes plataformas e arquiteturas.
+
+Em resumo, a compilação antecipada é uma técnica de compilação que visa melhorar o desempenho e outras características do software, realizando a compilação antes da execução do programa.
+```
