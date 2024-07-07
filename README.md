@@ -300,3 +300,47 @@ A compilação antecipada tem várias vantagens, como redução do tempo de inic
 
 Em resumo, a compilação antecipada é uma técnica de compilação que visa melhorar o desempenho e outras características do software, realizando a compilação antes da execução do programa.
 ```
+# Concorrência
+- para contadores, podemos usar o atomicInterger ou LongAdder (que possui mais performance).
+- outro ponto interessante, conforme o código abaixo, é o reentrantLock, que definimos um trecho aonde apenas uma thread pode usar por vez, e liberar em seguida, após o uso.
+```
+public class Account {
+    private static AtomicInteger nextAccountId = new AtomicInteger(1);
+    private final Lock lock = new ReentrantLock();
+
+    private double balance;
+    private final int accountId;
+
+    public Account(int openingBalance) {
+        balance = openingBalance;
+        accountId = nextAccountId.getAndIncrement();
+    }
+
+    public boolean transferTo(Account other, int amount) {
+        if (accountId == other.getAccountId()) {
+            return false;
+        }
+
+        var firstLock = accountId < other.getAccountId() ? lock : other.lock;
+        var secondLock = firstLock == lock ? other.lock : lock;
+
+        firstLock.lock();
+        try {
+            secondLock.lock();
+            try {
+                if (balance >= amount) {
+                    balance = balance - amount;
+                    other.rawDeposit(amount);
+                    return true;
+                }
+
+                return false;
+            } finally {
+                secondLock.unlock();
+            }
+        } finally {
+            firstLock.unlock();
+        }
+    }
+}
+```
