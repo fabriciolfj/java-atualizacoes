@@ -149,6 +149,7 @@ javap -c -p ArraySimulacao
  PATH, para correções e bugs 1.1.1
 
 ### Fork/Join
+- bifurca em tarefas menores e otimiza recursos para que eles nunca fiquem ociosos.
 - o aumento da velocidade e cores dos processados, aumentaram muito
 - mas o desempenho I/O não teve uma melhora notável
 - Fork/join é uma tentativa de melhorar o desempenho do I/O
