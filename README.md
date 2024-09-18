@@ -60,7 +60,7 @@ javap -c -p ArraySimulacao
 
 #### Implementações da interface lock
 - reentrantLock -> equivale ao synchronized, so que mais flexível
-- reentrantReadWriteLock -> oferece melhor desempenho onde há muitos leituros e poucos escritores
+- reentrantReadWriteLock -> oferece melhor desempenho onde há muitos leituras e poucos escritores
 
 ### CountdownLatch
 - fornece uma barreira de consenso, prmite que várias threads alcancem um ponto de coordenação e esperem até que a barreira seja liberada.
