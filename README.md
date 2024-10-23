@@ -18,7 +18,7 @@
 
 ### Módulos automáticos
 - são classes que não estão dentro de um módulo, mas são inseridas em um automaticamente (o arquivo jar aonde elas se encontram que é utilizado/inserido dentro do módulo automático)
-
+ 
 ### Switch expressions vs Switch instruction
 - expressã0 -> se todas as probabilidades são verificadas, não presiva da instrução default
 - expressão podem retornar um valor
